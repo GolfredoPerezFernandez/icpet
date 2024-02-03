@@ -1,11 +1,7 @@
 {
   "canisters": {
-    "social": {
-      "main": "canisters/social/main.mo",
-      "type": "motoko"
-    },
-    "crud": {
-      "main": "canisters/crud/main.mo",
+    "icpet": {
+      "main": "canisters/icpet/main.mo",
       "type": "motoko"
     },
     "internet_identity": {
@@ -21,7 +17,7 @@
     "assets": {
       "dependencies": [
         "internet_identity",
-        "social"
+        "icpet"
       ],
       "frontend": {
         "entrypoint": "dist/index.html"
@@ -51,3 +47,24 @@
   },
   "version": 1
 }
+
+-durmiendo
+  Z
+ /|\
+ / \
+
+ 
+-llorando
+ T_T
+/ | \
+ / \
+
+-idle
+ O
+/|\
+/ \
+
+-dead
+X
+/|\
+/ \
